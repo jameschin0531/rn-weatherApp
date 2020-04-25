@@ -3,7 +3,8 @@ const API_URL = "https://api.openweathermap.org/data/2.5/onecall";
 
 // singapore location (can add others location in future)
 const LOCATION = {
-	sg: { lat: 1.290270, lon: 103.851959 }
+	Singapore: { lat: 1.290270, lon: 103.851959 },
+	Malaysia: { lat: 3.519863, lon: 101.538116 }
 }
 
 // appId

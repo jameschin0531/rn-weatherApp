@@ -19,6 +19,4 @@ export function callWeatherData(params) {
 				reject(error);
 			})
 	})
-
-
 }

@@ -1,17 +1,16 @@
-import { primaryGrey, secondaryGrey } from '../../assets/plugins/colours'
+import { primaryGrey, white } from '../../assets/plugins/colours'
 import { ScaledSheet } from 'react-native-size-matters';
 
 const styles = ScaledSheet.create({
 	weatherDetailsContainer: {
+		flex: 1,
 		flexDirection: 'column',
 		alignItems: 'center',
-		justifyContent: 'space-between',
-		marginHorizontal: '20@s',
-		marginBottom: '20@s',
-		marginTop: '10@s'
+		justifyContent: 'flex-start',
+		backgroundColor: white
 	},
 	currentTimestamp: {
-		marginVertical: '20@s',
+		marginVertical: '40@s',
 		textAlign: 'center',
 		fontSize: '24@s',
 		fontWeight: 'bold',
