@@ -7,7 +7,7 @@ export default ScaledSheet.create({
 		alignItems: 'center',
 		justifyContent: 'center',
 		marginTop: '20@s',
-		marginBottom: '30@s'
+		marginBottom: '30@s',
 	},
 	dateAndTime: {
 		textAlign: 'center',

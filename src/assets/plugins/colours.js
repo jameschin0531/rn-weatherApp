@@ -1,5 +1,6 @@
 const primaryRed = '#ed4334';
-const primaryGrey = '#a7a7a7';
+const primaryGrey = '#636262';
+const secondaryGrey = '#c3c3c3';
 
 export {
   primaryRed,
